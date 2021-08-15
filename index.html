@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peridona</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/media.min.css">
+
+  <style>
+    [class*="ground-pane"] {
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="logo" href="#">
+          <img class="logo__image" src="img/logo.png" alt="Peridona logo">
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">about us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">team</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">contact</a>
+            </li>
+          </ul>
+          <div class="header__bottom" id="contacts">
+            <div class="contacts">
+              <p class="contacts__item contacts__item--time-work">Mon&nbsp;&mdash; Fri: 10am&nbsp;&mdash; 5pm</p>
+              <a class="contacts__item contacts__item--email contacts__link"
+                href="mailto:info@example.com">info@example.com</a>
+              <a class="contacts__item contacts__item--tel contacts__link" href="tel:555567812340">(555) 5678 12340</a>
+            </div>
+          </div>
+        </nav>
+        <button class="burger" id="burger" type="button">
+          <span class="burger__item"></span>
+          <span class="burger__item"></span>
+          <span class="burger__item"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <h1 class="visually-hidden">Peridona - Business Service</h1>
+      <div class="container">
+        <div class="intro__inner">
+          <b class="intro__lead">We&nbsp;are&nbsp;Providing Be Business Service</b>
+          <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+            maecenas accumsan lacus vel facilisis. </p>
+          <div class="intro__links-wrapper">
+            <a class="intro__link" href="#">Our Services</a>
+            <a class="intro__link" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="logos">
+      <h2 class="visually-hidden">Our partners</h2>
+      <div class="container">
+        <div class="logos__inner">
+          <div class="logos__picture-wrapper">
+            <img class="logos__picture" src="img/building.jpg" alt="High glass blue building">
+          </div>
+          <ul class="logos__list">
+            <li class="logos__item">
+              <a class="logos__link" href="#" target="_blank" aria-label="go to page Alisa boutiqe">
+                <img class="logos__image" src="img/logos/01.png" alt="Alisa boutiqe logotype"></a>
+            </li>
+            <li class="logos__item">
+              <a class="logos__link" href="#" target="_blank" aria-label="go to page Natural mineral water">
+                <img class="logos__image" src="img/logos/02.png" alt="Natural mineral water logotype"></a>
+            </li>
+            <li class="logos__item">
+              <a class="logos__link" href="#" target="_blank" aria-label="go to page Microwave hair salon">
+                <img class="logos__image" src="img/logos/03.png" alt="Microwave hair salon logotype"></a>
+            </li>
+            <li class="logos__item">
+              <a class="logos__link" href="#" target="_blank" aria-label="go to page Urban">
+                <img class="logos__image" src="img/logos/04.png" alt="Urban logotype"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="section-block">
+      <div class="container">
+        <div class="column-wrapper">
+          <section class="about">
+            <div class="section-header">
+              <h2 class="section-header__title section-header__title--dark about__title">We are Unique & different</h2>
+              <p class="section-header__subtitle">About our Business</p>
+            </div>
+            <p class="about__desc"><span>Aliquip ex ea commodo consequat.</span> Duis aute irure dolor in reprehenderit
+              in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+            <p class="about__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum.</p>
+            <ul class="about__statistic">
+              <li class="about__statistic-item">
+                <div class="about__statistic-num">23000</div>
+                <div class="about__statistic-desc">Proects</div>
+              </li>
+              <li class="about__statistic-item">
+                <div class="about__statistic-num">10333</div>
+                <div class="about__statistic-desc">Reviews</div>
+              </li>
+              <li class="about__statistic-item">
+                <div class="about__statistic-num">105</div>
+                <div class="about__statistic-desc">Award</div>
+              </li>
+            </ul>
+          </section>
+          <section class="feedback">
+            <div class="section-header feedback__header">
+              <h2 class="section-header__title section-header__title--light">Get in&nbsp;tuch</h2>
+            </div>
+            <form class="form feedback__form" action="#" method="post">
+              <p class="feedback__field">
+                <label class="visually-hidden" for="feedback-name">Enter your name</label>
+                <input class="input" id="feedback-name" name="feedback-name" type="text" placeholder="Enter your name">
+              </p>
+              <p class="feedback__field">
+                <label class="visually-hidden" for="feedback-email">Enter your email</label>
+                <input class="input" id="feedback-email" name="feedback-email" type="email"
+                  placeholder="Enter your email" data-validate-field="email">
+              </p>
+              <p class="feedback__field">
+                <label class="visually-hidden" for="feedback-text">Enter your message</label>
+                <textarea class="input input--text feedback__input-text" id="feedback-text" name="text"
+                  placeholder="Message" data-validate-field="text"></textarea>
+              </p>
+              <button class="btn btn--light feedback__btn" type="submit">Send</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+    <section class="work">
+      <div class="work__column work__column--content">
+        <div class="section-header work__header">
+          <h2 class="section-header__title section-header__title--light">How do&nbsp;we&nbsp;work<span> ...</span></h2>
+        </div>
+        <ul class="work__list">
+          <li class="work__item">
+            <span class="work__icon work__icon--necessary"></span>
+            <h3 class="work__item-title">All Necessary Data Collection</h3>
+            <p class="work__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+              suspendisse.</p>
+          </li>
+          <li class="work__item">
+            <span class="work__icon work__icon--analysis"></span>
+            <h3 class="work__item-title">Analysis Data</h3>
+            <p class="work__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+              suspendisse.</p>
+          </li>
+          <li class="work__item">
+            <span class="work__icon work__icon--report"></span>
+            <h3 class="work__item-title">Report the best Solution</h3>
+            <p class="work__desc">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+              suspendisse.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="work__column work__column--video">
+        <video class="work__video" poster="img/work/video-poster.jpg">
+          <source src="#" type="video/mp4">
+          <source src="#" type="video/ogg">
+          <source src="#" type="video/webm">
+          Your browser doesn't support HTML5 video tag.
+        </video>
+
+        <button class="pulse-button" type="button" aria-label="Play the video">
+          <span class="pulse-button__icon"></span>
+          <span class="pulse-button__circle pulse-button__circle--large"></span>
+          <span class="pulse-button__circle pulse-button__circle--middle"></span>
+          <span class="pulse-button__circle pulse-button__circle--small"></span>
+        </button>
+      </div>
+    </section>
+    <section class="service">
+      <div class="container">
+        <div class="section-header section-header--row service__header">
+          <h2 class="section-header__title section-header__title--dark">About Our Service
+            <span class="section-header__devider section-header__devider--dark"></span></h2>
+          <p class="section-header__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+            maecenas accumsan lacus vel facilisis. </p>
+        </div>
+        <ul class="service__list">
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="23"
+                  viewBox="0 0 24 23">
+                  <g>
+                    <g>
+                      <path
+                        d="M11.478 5.9v5.09H6.261c.104-1.833.313-3.562.835-5.09zm-5.53 11.195H1.46A12.022 12.022 0 0 1 0 12.008h5.217c.105 1.83.313 3.561.73 5.087zm5.53-16.69v4.478h-4.07c.94-2.443 2.4-4.172 4.07-4.478zm5.113 4.478h-4.07V.405c1.67.306 3.13 2.035 4.07 4.478zm1.148 6.106h-5.217V5.901h4.382c.522 1.527.73 3.256.835 5.088zm6.26 1.019a12.022 12.022 0 0 1-1.46 5.087h-4.487c.417-1.526.73-3.256.73-5.087zm-12.521 0v5.087H7.096c-.522-1.526-.731-3.256-.835-5.087zM5.948 5.9c-.418 1.527-.626 3.256-.73 5.088H0a12.026 12.026 0 0 1 1.46-5.088zm5.53 12.212v4.478c-1.67-.305-3.13-2.036-4.07-4.478zM9.6 22.998c-3.13-.61-5.74-2.443-7.513-4.885H6.26c.835 2.24 1.982 3.969 3.339 4.885zm12.208-4.885c-1.67 2.545-4.382 4.275-7.513 4.885 1.461-.916 2.61-2.646 3.34-4.885zm.105-13.23h-4.174c-.835-2.239-1.983-3.97-3.34-4.885 3.131.61 5.74 2.442 7.514 4.885zM9.704-.002c-1.46.916-2.609 2.646-3.339 4.885H2.191C3.861 2.339 6.574.608 9.704-.002zm6.887 18.115c-.94 2.442-2.4 4.173-4.07 4.478v-4.478zm1.148-6.105c-.104 1.83-.313 3.561-.835 5.087h-4.382v-5.087zm6.26-1.019h-5.217c-.104-1.832-.313-3.561-.73-5.088h4.487a12.026 12.026 0 0 1 1.46 5.088z" />
+                      <path
+                        d="M11.478 5.9v5.09H6.261c.104-1.833.313-3.562.835-5.09zm-5.53 11.195H1.46A12.022 12.022 0 0 1 0 12.008h5.217c.105 1.83.313 3.561.73 5.087zm5.53-16.69v4.478h-4.07c.94-2.443 2.4-4.172 4.07-4.478zm5.113 4.478h-4.07V.405c1.67.306 3.13 2.035 4.07 4.478zm1.148 6.106h-5.217V5.901h4.382c.522 1.527.73 3.256.835 5.088zm6.26 1.019a12.022 12.022 0 0 1-1.46 5.087h-4.487c.417-1.526.73-3.256.73-5.087zm-12.521 0v5.087H7.096c-.522-1.526-.731-3.256-.835-5.087zM5.948 5.9c-.418 1.527-.626 3.256-.73 5.088H0a12.026 12.026 0 0 1 1.46-5.088zm5.53 12.212v4.478c-1.67-.305-3.13-2.036-4.07-4.478zM9.6 22.998c-3.13-.61-5.74-2.443-7.513-4.885H6.26c.835 2.24 1.982 3.969 3.339 4.885zm12.208-4.885c-1.67 2.545-4.382 4.275-7.513 4.885 1.461-.916 2.61-2.646 3.34-4.885zm.105-13.23h-4.174c-.835-2.239-1.983-3.97-3.34-4.885 3.131.61 5.74 2.442 7.514 4.885zM9.704-.002c-1.46.916-2.609 2.646-3.339 4.885H2.191C3.861 2.339 6.574.608 9.704-.002zm6.887 18.115c-.94 2.442-2.4 4.173-4.07 4.478v-4.478zm1.148-6.105c-.104 1.83-.313 3.561-.835 5.087h-4.382v-5.087zm6.26-1.019h-5.217c-.104-1.832-.313-3.561-.73-5.088h4.487a12.026 12.026 0 0 1 1.46 5.088z" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="service__title">Financial Consulting</h3>
+              </div>
+              <p class="service__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse.</p>
+            </a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon" id="Capa_1" enable-background="new 0 0 510 510" height="23"
+                  viewBox="0 0 510 510" width="23" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <path d="m315 8.787v81.213h81.213z" />
+                    <path
+                      d="m270 285c0-74.439 60.56-135 135-135v-30h-120v-120h-225v450h345v-30c-74.44 0-135-60.56-135-135zm-150-195h120v30h-120zm120 270h-120v-30h120zm0-60h-120v-30h120zm0-60h-120v-30h120zm15-60h-135v-30h135z" />
+                    <path
+                      d="m405 180c-57.897 0-105 47.102-105 105s47.103 105 105 105 105-47.103 105-105-47.103-105-105-105zm-10.606 151.819-40.606-40.606 21.212-21.213 19.394 19.394 49.393-49.394 21.213 21.213z" />
+                    <path d="m30 30h-30v480h375v-30h-345z" />
+                  </g>
+                </svg>
+                <h3 class="service__title">Audit & Assurance</h3>
+              </div>
+              <p class="service__text">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco.</p>
+            </a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                  viewBox="0 0 23 23">
+                  <g>
+                    <g>
+                      <path
+                        d="M17.498 3.925v.116h-4.056V-.002h.115c.532 0 1.066.216 1.443.592l1.905 1.906c.382.382.593.89.593 1.429zM11.662 15.83a1.69 1.69 0 0 0 .23 1.517c.316.44.827.702 1.366.702l.327-.018 2.142-.715a2.677 2.677 0 0 0 1.048-.646l.74-.723v5.029c0 1.115-.924 2.022-2.039 2.022H2.021A2.024 2.024 0 0 1 0 20.976V2.02C0 .905.907-.002 2.02-.002H12.13v4.717c0 .372.28.674.652.674h4.734v2.918l-4.562 4.544c-.293.296-.518.66-.647 1.053zM2.695 12.8c0 .372.302.674.674.674h6.716a.674.674 0 1 0 0-1.349H3.37a.674.674 0 0 0-.674.675zm.674-2.022h6.716a.673.673 0 1 0 0-1.348H3.37a.674.674 0 1 0 0 1.348zm0 5.39h6.716a.673.673 0 1 0 0-1.346H3.37a.673.673 0 1 0 0 1.347zm5.369 2.696a.673.673 0 1 0 0 1.348h4.043a.674.674 0 0 0 0-1.348zM12.78 8.084a.673.673 0 1 0 0-1.348H3.369a.673.673 0 1 0 0 1.348zm2.343 8.013l-1.758.587a.336.336 0 0 1-.426-.426l.586-1.759zm5.55-5.232l-4.438 4.438-1.914-1.914L18.76 8.95zm1.931-1.932l-.979.979-1.913-1.913.979-.98c.238-.238.587-.375.956-.375.37 0 .719.137.956.375a1.356 1.356 0 0 1 .011 1.904l-.005.005a.716.716 0 0 1-.005.005l.002-.002-.002.002zm.006-.006l-.001.001.001-.001z" />
+                      <path
+                        d="M17.498 3.925v.116h-4.056V-.002h.115c.532 0 1.066.216 1.443.592l1.905 1.906c.382.382.593.89.593 1.429zM11.662 15.83a1.69 1.69 0 0 0 .23 1.517c.316.44.827.702 1.366.702l.327-.018 2.142-.715a2.677 2.677 0 0 0 1.048-.646l.74-.723v5.029c0 1.115-.924 2.022-2.039 2.022H2.021A2.024 2.024 0 0 1 0 20.976V2.02C0 .905.907-.002 2.02-.002H12.13v4.717c0 .372.28.674.652.674h4.734v2.918l-4.562 4.544c-.293.296-.518.66-.647 1.053zM2.695 12.8c0 .372.302.674.674.674h6.716a.674.674 0 1 0 0-1.349H3.37a.674.674 0 0 0-.674.675zm.674-2.022h6.716a.673.673 0 1 0 0-1.348H3.37a.674.674 0 1 0 0 1.348zm0 5.39h6.716a.673.673 0 1 0 0-1.346H3.37a.673.673 0 1 0 0 1.347zm5.369 2.696a.673.673 0 1 0 0 1.348h4.043a.674.674 0 0 0 0-1.348zM12.78 8.084a.673.673 0 1 0 0-1.348H3.369a.673.673 0 1 0 0 1.348zm2.343 8.013l-1.758.587a.336.336 0 0 1-.426-.426l.586-1.759zm5.55-5.232l-4.438 4.438-1.914-1.914L18.76 8.95zm1.931-1.932l-.979.979-1.913-1.913.979-.98c.238-.238.587-.375.956-.375.37 0 .719.137.956.375a1.356 1.356 0 0 1 .011 1.904l-.005.005a.716.716 0 0 1-.005.005l.002-.002-.002.002zm.006-.006l-.001.001.001-.001z" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="service__title">Business Services</h3>
+              </div>
+              <p class="service__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse.</p>
+            </a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon" height="23" viewBox="0 -32 512 512" width="23"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m464.871094 0h-224.941406c-26.03125 0-47.128907 21.101562-47.128907 47.128906v110.800782c11.890625 5.910156 24.738281 12.300781 36.730469 18.261718l18.347656-36.710937c11.109375-22.199219 38.191406-31.21875 60.382813-20.128907 22.238281 11.128907 31.25 38.136719 20.117187 60.378907l-32.707031 65.429687c.867187 8.660156.097656 17.390625-2.34375 25.839844h21.59375l-56.953125 156.609375c-3.378906 9.289063 3.152344 20.128906 14.101562 20.128906 6.121094 0 11.878907-3.777343 14.089844-9.878906l60.679688-166.859375h10.511718l61.296876 166.910156c2.230468 6.070313 7.972656 9.828125 14.089843 9.828125 10.230469 0 17.730469-10.21875 14.070313-20.167969l-57.5-156.570312h75.5625c26.027344 0 47.128906-21.101562 47.128906-47.128906v-176.742188c0-26.027344-21.101562-47.128906-47.128906-47.128906zm-32.140625 206.738281h-67.300781c-8.28125 0-15-6.71875-15-15 0-8.289062 6.71875-15 15-15h67.300781c8.289062 0 15 6.710938 15 15 0 8.28125-6.710938 15-15 15zm0-56.238281h-67.300781c-8.28125 0-15-6.710938-15-15 0-8.28125 6.71875-15 15-15h67.300781c8.289062 0 15 6.71875 15 15 0 8.289062-6.710938 15-15 15zm0-56.230469h-160.660157c-8.289062 0-15-6.71875-15-15s6.710938-15 15-15h160.660157c8.289062 0 15 6.71875 15 15s-6.710938 15-15 15zm0 0" />
+                  <path
+                    d="m263.921875 264.566406c2.710937-7.941406 2.691406-16.238281.402344-23.808594l37.226562-74.445312c3.703125-7.410156.703125-16.421875-6.707031-20.125-7.40625-3.707031-16.417969-.703125-20.125 6.707031l-31.75 63.492188c-18.976562-9.449219-47.808594-23.785157-71.035156-35.335938-21.609375-10.746093-37.03125-20.382812-63.34375-20.382812h-13.253906c20.488281 0 38.773437-9.429688 50.742187-24.1875 9.132813-11.230469 14.59375-25.542969 14.59375-41.140625 0-36.089844-29.25-65.339844-65.34375-65.339844-36.078125 0-65.328125 29.25-65.328125 65.339844 0 17.332031 6.75 33.082031 17.761719 44.769531 11.90625 12.660156 28.816406 20.558594 47.5625 20.5625-25.132813 0-49.703125 10.183594-67.378907 27.90625-18.019531 17.972656-27.945312 41.917969-27.945312 67.425781v48.199219c0 20.75 13.472656 38.40625 32.132812 44.6875v83.84375c0 8.285156 6.714844 15 15 15h96.398438c8.285156 0 15-6.714844 15-15v-168.535156c14.222656 7.109375 32.90625 16.449219 48.023438 24.011719 10.597656 5.296874 22.980468 5.773437 34.023437 1.28125 11.011719-4.53125 19.5-13.550782 23.285156-24.75.019531-.058594.039063-.117188.058594-.175782zm0 0" />
+                </svg>
+                <h3 class="service__title">Training and Couching</h3>
+              </div>
+              <p class="service__text">Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris.</p>
+            </a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon services__icon--planning" xmlns="http://www.w3.org/2000/svg" width="32"
+                  height="24" viewBox="0 0 32 24">
+                  <g>
+                    <g>
+                      <path
+                        d="M13.81 14.72c0 2.176-.825 4.243-2.265 5.693-2.818 2.852-7.187 2.621-9.75-.518-2.562-3.138-2.36-8.005.458-10.858C3.527 7.748 5.182 7.03 6.899 7.03c.692 0 1.385.116 2.05.34 2.395.84 4.203 3.053 4.722 5.792.09.509.138 1.04.138 1.558zm-3.456 4.118c-.138-.4-.533-.593-.893-.447v-.008c-1.309.556-2.784.2-3.767-.901a2.53 2.53 0 0 1-.492-.703h3.56c.38 0 .692-.346.692-.77 0-.425-.312-.772-.693-.772H4.697a3.468 3.468 0 0 1-.021-.848h4.446c.38 0 .692-.347.692-.772 0-.423-.312-.77-.692-.77H5.085c.166-.333.367-.633.602-.91.99-1.096 2.465-1.45 3.767-.888.36.155.755-.046.893-.44.139-.4-.041-.84-.395-.994-1.814-.771-3.87-.293-5.248 1.241a5.408 5.408 0 0 0-1.143 1.998h-.983c-.38 0-.693.347-.693.772 0 .423.312.77.693.77h.692c-.014.285-.014.563.014.849h-.706c-.38 0-.693.347-.693.77 0 .426.312.772.693.772h1.06c.235.67.602 1.288 1.066 1.797 1.37 1.535 3.427 2.028 5.248 1.25.36-.155.534-.593.402-.996zm13.593-16.95c0 .108-.326.64-1.835 1.141-1.406.47-3.345.748-5.325.748-1.911 0-3.725-.247-5.103-.694-1.49-.479-1.905-1.01-1.94-1.18 0-.015 0-.015-.006-.024.007-.107.325-.632 1.786-1.133 1.399-.478 3.269-.748 5.263-.748 1.98 0 3.92.27 5.332.748 1.502.51 1.828 1.034 1.828 1.142zm-7.43 19.002a19.66 19.66 0 0 1-3.213-.316 9.615 9.615 0 0 0 1.33-2.538c.588.054 1.211.093 1.848.1v.14zm7.52-17.067v1.975a.678.678 0 0 0-.09.37c0 .1-.326.632-1.835 1.141-1.406.471-3.352.749-5.332.749-1.71 0-3.386-.201-4.716-.58-.02-.007-.034-.007-.055-.015a8.008 8.008 0 0 0-2.167-1.365l-.049-2.175c.478.27.977.486 1.496.64 1.502.487 3.448.749 5.491.749 2.14 0 4.175-.286 5.726-.81a7.028 7.028 0 0 0 1.53-.679zm0 4.272v2.045c-2.978.093-6.052.786-7.188 2.182h-.062c-.665 0-1.309-.031-1.904-.077a9.622 9.622 0 0 0-1.24-2.87c1.039.148 2.084.225 3.137.225 2.14 0 4.175-.286 5.733-.81a8.403 8.403 0 0 0 1.524-.695zM15.18 14.72a8.06 8.06 0 0 0-.034-.91c.408.032.83.046 1.26.054 0 .015.007.04.007.055l.041 2.667c-.491-.007-.969-.03-1.433-.069.104-.594.16-1.195.16-1.797zM32 17.489c0 .1-.062.216-.062.331 0 .108-.319.633-1.815 1.143-1.42.477-3.303.74-5.31.74-3.802 0-6.378-.95-6.946-1.69l-.014-.663-.027-1.766a7.638 7.638 0 0 0 1.578.671c1.489.463 3.407.725 5.401.725 2.105 0 4.114-.278 5.658-.787a7.462 7.462 0 0 0 1.53-.678v1.974zm0 2.267v2.337c0 .108-.312.64-1.78 1.15-1.405.485-3.275.755-5.27.755-2 0-3.87-.262-5.255-.733-1.468-.5-1.766-1.017-1.766-1.133v-.016l-.034-2.229c1.648.934 4.397 1.357 6.917 1.357 2.14 0 4.162-.277 5.713-.81A7.65 7.65 0 0 0 32 19.757zm-.021-6.208c-.007.116-.353.648-1.89 1.156-1.42.471-3.29.726-5.27.726-1.87 0-3.656-.24-5.027-.663-1.323-.41-1.856-.888-1.987-1.118a.712.712 0 0 0-.028-.132c.07-.216.575-.717 1.994-1.164 1.35-.425 3.11-.656 4.958-.656h.09c1.98 0 3.92.247 5.332.732 1.461.495 1.807.988 1.828 1.12z" />
+                      <path
+                        d="M13.81 14.72c0 2.176-.825 4.243-2.265 5.693-2.818 2.852-7.187 2.621-9.75-.518-2.562-3.138-2.36-8.005.458-10.858C3.527 7.748 5.182 7.03 6.899 7.03c.692 0 1.385.116 2.05.34 2.395.84 4.203 3.053 4.722 5.792.09.509.138 1.04.138 1.558zm-3.456 4.118c-.138-.4-.533-.593-.893-.447v-.008c-1.309.556-2.784.2-3.767-.901a2.53 2.53 0 0 1-.492-.703h3.56c.38 0 .692-.346.692-.77 0-.425-.312-.772-.693-.772H4.697a3.468 3.468 0 0 1-.021-.848h4.446c.38 0 .692-.347.692-.772 0-.423-.312-.77-.692-.77H5.085c.166-.333.367-.633.602-.91.99-1.096 2.465-1.45 3.767-.888.36.155.755-.046.893-.44.139-.4-.041-.84-.395-.994-1.814-.771-3.87-.293-5.248 1.241a5.408 5.408 0 0 0-1.143 1.998h-.983c-.38 0-.693.347-.693.772 0 .423.312.77.693.77h.692c-.014.285-.014.563.014.849h-.706c-.38 0-.693.347-.693.77 0 .426.312.772.693.772h1.06c.235.67.602 1.288 1.066 1.797 1.37 1.535 3.427 2.028 5.248 1.25.36-.155.534-.593.402-.996zm13.593-16.95c0 .108-.326.64-1.835 1.141-1.406.47-3.345.748-5.325.748-1.911 0-3.725-.247-5.103-.694-1.49-.479-1.905-1.01-1.94-1.18 0-.015 0-.015-.006-.024.007-.107.325-.632 1.786-1.133 1.399-.478 3.269-.748 5.263-.748 1.98 0 3.92.27 5.332.748 1.502.51 1.828 1.034 1.828 1.142zm-7.43 19.002a19.66 19.66 0 0 1-3.213-.316 9.615 9.615 0 0 0 1.33-2.538c.588.054 1.211.093 1.848.1v.14zm7.52-17.067v1.975a.678.678 0 0 0-.09.37c0 .1-.326.632-1.835 1.141-1.406.471-3.352.749-5.332.749-1.71 0-3.386-.201-4.716-.58-.02-.007-.034-.007-.055-.015a8.008 8.008 0 0 0-2.167-1.365l-.049-2.175c.478.27.977.486 1.496.64 1.502.487 3.448.749 5.491.749 2.14 0 4.175-.286 5.726-.81a7.028 7.028 0 0 0 1.53-.679zm0 4.272v2.045c-2.978.093-6.052.786-7.188 2.182h-.062c-.665 0-1.309-.031-1.904-.077a9.622 9.622 0 0 0-1.24-2.87c1.039.148 2.084.225 3.137.225 2.14 0 4.175-.286 5.733-.81a8.403 8.403 0 0 0 1.524-.695zM15.18 14.72a8.06 8.06 0 0 0-.034-.91c.408.032.83.046 1.26.054 0 .015.007.04.007.055l.041 2.667c-.491-.007-.969-.03-1.433-.069.104-.594.16-1.195.16-1.797zM32 17.489c0 .1-.062.216-.062.331 0 .108-.319.633-1.815 1.143-1.42.477-3.303.74-5.31.74-3.802 0-6.378-.95-6.946-1.69l-.014-.663-.027-1.766a7.638 7.638 0 0 0 1.578.671c1.489.463 3.407.725 5.401.725 2.105 0 4.114-.278 5.658-.787a7.462 7.462 0 0 0 1.53-.678v1.974zm0 2.267v2.337c0 .108-.312.64-1.78 1.15-1.405.485-3.275.755-5.27.755-2 0-3.87-.262-5.255-.733-1.468-.5-1.766-1.017-1.766-1.133v-.016l-.034-2.229c1.648.934 4.397 1.357 6.917 1.357 2.14 0 4.162-.277 5.713-.81A7.65 7.65 0 0 0 32 19.757zm-.021-6.208c-.007.116-.353.648-1.89 1.156-1.42.471-3.29.726-5.27.726-1.87 0-3.656-.24-5.027-.663-1.323-.41-1.856-.888-1.987-1.118a.712.712 0 0 0-.028-.132c.07-.216.575-.717 1.994-1.164 1.35-.425 3.11-.656 4.958-.656h.09c1.98 0 3.92.247 5.332.732 1.461.495 1.807.988 1.828 1.12z" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="service__title">Investment Planning </h3>
+              </div>
+              <p class="service__text">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation..</p>
+            </a>
+          </li>
+          <li class="service__item">
+            <a class="service__link" href="#">
+              <div class="service__top">
+                <svg class="service__icon services__icon--marketing" xmlns="http://www.w3.org/2000/svg" width="26"
+                  height="24" viewBox="0 0 26 24">
+                  <g>
+                    <g>
+                      <path
+                        d="M13-.002c1.263 0 2.287 1.008 2.287 2.25S14.263 4.498 13 4.498c-1.264 0-2.288-1.008-2.288-2.25S11.736-.002 13-.002zm6.1 6v3c0 .827-.684 1.5-1.525 1.5-.84 0-1.525-.673-1.525-1.5v-1.5h-6.1v1.5c0 .827-.684 1.5-1.525 1.5-.84 0-1.525-.673-1.525-1.5v-3c0-1.43 1.024-2.625 2.388-2.924A3.801 3.801 0 0 0 13 5.998a3.801 3.801 0 0 0 3.712-2.924c1.364.299 2.388 1.494 2.388 2.924zm6.606 15.404c-.631 1.076-2.081 1.445-3.175.823a2.23 2.23 0 0 1-.838-3.073c.632-1.076 2.031-1.445 3.125-.824 1.094.622 1.52 1.998.888 3.074zm-.902-4.7c-1.664-.508-3.525.156-4.431 1.7-.907 1.544-.56 3.462.718 4.624a3.088 3.088 0 0 1-3.768.572l-2.642-1.5a1.489 1.489 0 0 1-.558-2.049 1.541 1.541 0 0 1 2.083-.55l1.321.75 3.05-5.195-1.32-.75a1.488 1.488 0 0 1-.559-2.05 1.542 1.542 0 0 1 2.083-.549l2.642 1.5a2.98 2.98 0 0 1 1.38 3.497zM3.469 22.225c-1.094.622-2.544.253-3.176-.823-.631-1.076-.206-2.452.888-3.074 1.094-.62 2.494-.252 3.125.824a2.23 2.23 0 0 1-.837 3.073zm7.85-.127l-2.642 1.5a3.088 3.088 0 0 1-3.768-.572c1.278-1.162 1.624-3.08.718-4.624-.906-1.544-2.768-2.208-4.43-1.7a2.98 2.98 0 0 1 1.38-3.496l2.641-1.5a1.542 1.542 0 0 1 2.084.549c.42.715.17 1.635-.559 2.048l-1.32.75 3.05 5.197 1.32-.75a1.541 1.541 0 0 1 2.083.55c.42.715.17 1.634-.558 2.048z" />
+                      <path
+                        d="M13-.002c1.263 0 2.287 1.008 2.287 2.25S14.263 4.498 13 4.498c-1.264 0-2.288-1.008-2.288-2.25S11.736-.002 13-.002zm6.1 6v3c0 .827-.684 1.5-1.525 1.5-.84 0-1.525-.673-1.525-1.5v-1.5h-6.1v1.5c0 .827-.684 1.5-1.525 1.5-.84 0-1.525-.673-1.525-1.5v-3c0-1.43 1.024-2.625 2.388-2.924A3.801 3.801 0 0 0 13 5.998a3.801 3.801 0 0 0 3.712-2.924c1.364.299 2.388 1.494 2.388 2.924zm6.606 15.404c-.631 1.076-2.081 1.445-3.175.823a2.23 2.23 0 0 1-.838-3.073c.632-1.076 2.031-1.445 3.125-.824 1.094.622 1.52 1.998.888 3.074zm-.902-4.7c-1.664-.508-3.525.156-4.431 1.7-.907 1.544-.56 3.462.718 4.624a3.088 3.088 0 0 1-3.768.572l-2.642-1.5a1.489 1.489 0 0 1-.558-2.049 1.541 1.541 0 0 1 2.083-.55l1.321.75 3.05-5.195-1.32-.75a1.488 1.488 0 0 1-.559-2.05 1.542 1.542 0 0 1 2.083-.549l2.642 1.5a2.98 2.98 0 0 1 1.38 3.497zM3.469 22.225c-1.094.622-2.544.253-3.176-.823-.631-1.076-.206-2.452.888-3.074 1.094-.62 2.494-.252 3.125.824a2.23 2.23 0 0 1-.837 3.073zm7.85-.127l-2.642 1.5a3.088 3.088 0 0 1-3.768-.572c1.278-1.162 1.624-3.08.718-4.624-.906-1.544-2.768-2.208-4.43-1.7a2.98 2.98 0 0 1 1.38-3.496l2.641-1.5a1.542 1.542 0 0 1 2.084.549c.42.715.17 1.635-.559 2.048l-1.32.75 3.05 5.197 1.32-.75a1.541 1.541 0 0 1 2.083.55c.42.715.17 1.634-.558 2.048z" />
+                    </g>
+                  </g>
+                </svg>
+                <h3 class="service__title">Marketing Analysis</h3>
+              </div>
+              <p class="service__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse.</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="data">
+      <div class="container">
+        <h2 class="visually-hidden">Our numbers-data</h2>
+        <ul class="data__list">
+          <li class="data__row">
+            <div class="data__cell data__number">1230</div>
+            <div class="data__cell data__name">Project Completed</div>
+            <div class="data__cell data__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+              viverra maecenas accumsan lacus vel facilisis. </div>
+          </li>
+          <li class="data__row">
+            <div class="data__cell data__number">961</div>
+            <div class="data__cell data__name">Happy Clients</div>
+            <div class="data__cell data__desc">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </div>
+          </li>
+          <li class="data__row">
+            <div class="data__cell data__number">1322</div>
+            <div class="data__cell data__name">3D Modeling</div>
+            <div class="data__cell data__desc">Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu</div>
+          </li>
+          <li class="data__row">
+            <div class="data__cell data__number">9650</div>
+            <div class="data__cell data__name">Cup of Tea</div>
+            <div class="data__cell data__desc">Nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="team">
+      <div class="container">
+        <div class="column-wrapper">
+          <div class="team__content">
+            <div class="section-header">
+              <h2 class="section-header__title section-header__title--dark">Our great team</h2>
+            </div>
+            <p class="team__text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+            <a class="btn team__btn" href="#">Learn More</a>
+          </div>
+          <div class="team__photo">
+            <div class="team__photo-card">
+              <img class="team__photo-image" src="img/team/01.jpg" alt="John Grogaries">
+              <div class="team__photo-info">
+                <p class="team__photo-name"> John Grogaries</p>
+                <p class="team__photo-prof">Business Professional</p>
+              </div>
+            </div>
+            <div class="team__photo-card">
+              <img class="team__photo-image" src="img/team/02.jpg" alt="Adam Herison Pole">
+              <div class="team__photo-info">
+                <p class="team__photo-name">Adam Herison Pole</p>
+                <p class="team__photo-prof">Business Consultent</p>
+              </div>
+            </div>
+            <div class="team__photo-card">
+              <img class="team__photo-image" src="img/team/03.jpg" alt="Mani Bomikola">
+              <div class="team__photo-info">
+                <p class="team__photo-name">Mani Bomikola</p>
+                <p class="team__photo-prof">Resear Analist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__top">
+        <div class="container news__container">
+          <div class="section-header section-header--row news__header">
+            <h2 class="section-header__title section-header__title--light">Latest News
+              <span class="section-header__devider section-header__devider--light"></span></h2>
+            <p class="section-header__text news__header-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+              lacus vel facilisis.</p>
+          </div>
+          <div class="news__block">
+            <ul class="news__list">
+              <li class="news__item">
+                <div class="news__item-top">
+                  <a href="#">
+                    <img class="news__image" src="img/news/01.jpg" alt="photo">
+                  </a>
+                </div>
+                <div class="news__content">
+                  <a href="#">
+                    <h3 class="news__title">Enim ad minim ven magna</h3>
+                  </a>
+                  <p class="news__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+              </li>
+              <li class="news__item">
+                <div class="news__item-top">
+                  <a href="#">
+                    <img class="news__image" src="img/news/02.jpg" alt="photo">
+                  </a>
+                </div>
+                <div class="news__content">
+                  <a href="#">
+                    <h3 class="news__title">Lorem ipsum dolor sit amet</h3>
+                  </a>
+                  <p class="news__text">Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa</p>
+                </div>
+              </li>
+              <li class="news__item">
+
+                <div class="news__item-top">
+                  <a href="#">
+                    <img class="news__image" src="img/news/03.jpg" alt="photo">
+                  </a>
+                </div>
+                <div class="news__content">
+                  <a href="#">
+                    <h3 class="news__title">Dolore magna aliqua enim</h3>
+                  </a>
+                  <p class="news__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+      <div class="news__bottom">
+        <a class="btn news__btn" href="#">Learn More</a>
+      </div>
+    </section>
+    <section class="moments">
+      <div class="container">
+        <div class="section-header section-header--row moments__header">
+          <h2 class="section-header__title section-header__title--dark">
+            Our Happy Moments
+          </h2>
+          <p class="section-header__text moments__header-text">
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a class="btn moments__btn" href="#">Learn More</a>
+        </div>
+        <!-- Tab links -->
+        <div class="tab">
+          <button class="tablinks" id="defaultOpen" onclick="openItem(event, 'all')">All</button>
+          <button class="tablinks" onclick="openItem(event, 'businessPlan')">Business Plan</button>
+          <button class="tablinks" onclick="openItem(event, 'businessDevelopment')">Business Development</button>
+          <button class="tablinks" onclick="openItem(event, 'marketing')">Marketing</button>
+          <button class="tablinks" onclick="openItem(event, 'development')">Developmen</button>
+        </div>
+        <!-- Tab content -->
+        <div class="tabcontent" id="all">
+          <div class="tabcontent__col tabcontent__col--bg">
+            <div class="tabcontent__item tabcontent__item--wide2 tabcontent__item--height2">
+              <img src="img/tab/01.jpg" alt="building">
+            </div>
+            <div class="tabcontent__item tabcontent__item--wide3 tabcontent__item--height2">
+              <img src="img/tab/02.jpg" alt="three towers">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/04.jpg" alt="laptop">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/05.jpg" alt="girl on the background of buildings">
+            </div>
+          </div>
+          <div class="tabcontent__col tabcontent__col--sm">
+            <div class="tabcontent__item tabcontent__item--height3">
+              <img src="img/tab/03.jpg" alt="plan">
+            </div>
+            <div class="tabcontent__item tabcontent__item--height4">
+              <img src="img/tab/06.jpg" alt="laptop">
+            </div>
+          </div>
+        </div>
+        <div class="tabcontent" id="businessPlan">
+          <div class="tabcontent__col  tabcontent__col--bg">
+            <div class="tabcontent__item tabcontent__item--wide2 tabcontent__item--height2">
+              <img src="img/tab/01.jpg" alt="building">
+            </div>
+            <div class="tabcontent__item tabcontent__item--wide3 tabcontent__item--height2">
+              <img src="img/tab/02.jpg" alt="three towers">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/04.jpg" alt="laptop">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/05.jpg" alt="girl on the background of buildings">
+            </div>
+          </div>
+          <div class="tabcontent__col tabcontent__col--sm">
+            <div class="tabcontent__item tabcontent__item--height3">
+              <img src="img/tab/03.jpg" alt="plan">
+            </div>
+            <div class="tabcontent__item tabcontent__item--height4">
+              <img src="img/tab/06.jpg" alt="laptop">
+            </div>
+          </div>
+        </div>
+        <div class="tabcontent" id="businessDevelopment">
+          <div class="tabcontent__col  tabcontent__col--bg">
+            <div class="tabcontent__item tabcontent__item--wide2 tabcontent__item--height2">
+              <img src="img/tab/01.jpg" alt="building">
+            </div>
+            <div class="tabcontent__item tabcontent__item--wide3 tabcontent__item--height2">
+              <img src="img/tab/02.jpg" alt="three towers">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/04.jpg" alt="laptop">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/05.jpg" alt="girl on the background of buildings">
+            </div>
+          </div>
+          <div class="tabcontent__col tabcontent__col--sm">
+            <div class="tabcontent__item tabcontent__item--height3">
+              <img src="img/tab/03.jpg" alt="plan">
+            </div>
+            <div class="tabcontent__item tabcontent__item--height4">
+              <img src="img/tab/06.jpg" alt="laptop">
+            </div>
+          </div>
+        </div>
+        <div class="tabcontent" id="marketing">
+          <div class="tabcontent__col  tabcontent__col--bg">
+            <div class="tabcontent__item tabcontent__item--wide2 tabcontent__item--height2">
+              <img src="img/tab/01.jpg" alt="building">
+            </div>
+            <div class="tabcontent__item tabcontent__item--wide3 tabcontent__item--height2">
+              <img src="img/tab/02.jpg" alt="three towers">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/04.jpg" alt="laptop">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/05.jpg" alt="girl on the background of buildings">
+            </div>
+          </div>
+          <div class="tabcontent__col tabcontent__col--sm">
+            <div class="tabcontent__item tabcontent__item--height3">
+              <img src="img/tab/03.jpg" alt="plan">
+            </div>
+            <div class="tabcontent__item tabcontent__item--height4">
+              <img src="img/tab/06.jpg" alt="laptop">
+            </div>
+          </div>
+        </div>
+        <div class="tabcontent" id="development">
+          <div class="tabcontent__col  tabcontent__col--bg">
+            <div class="tabcontent__item tabcontent__item--wide2 tabcontent__item--height2">
+              <img src="img/tab/01.jpg" alt="building">
+            </div>
+            <div class="tabcontent__item tabcontent__item--wide3 tabcontent__item--height2">
+              <img src="img/tab/02.jpg" alt="three towers">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/04.jpg" alt="laptop">
+            </div>
+            <div class="tabcontent__item">
+              <img src="img/tab/05.jpg" alt="girl on the background of buildings">
+            </div>
+          </div>
+          <div class="tabcontent__col tabcontent__col--sm">
+            <div class="tabcontent__item tabcontent__item--height3">
+              <img src="img/tab/03.jpg" alt="plan">
+            </div>
+            <div class="tabcontent__item tabcontent__item--height4">
+              <img src="img/tab/06.jpg" alt="laptop">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="map" style="width: 100%; height: 405px">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col footer__col--left">
+            <h2 class="footer__title footer__title--big">Peridona</h2>
+            <p class="footer__text">
+              Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link social__link--facebook" href="#" target="_blank"
+                  aria-label="Go to our facebook"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--twitter" href="#" target="_blank"
+                  aria-label="Go to our twitter"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--instagram" href="#" target="_blank"
+                  aria-label="Go to our instagram"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--skipe" href="#" target="_blank" aria-label="Go to our skipe"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--pinterest" href="#" target="_blank"
+                  aria-label="Go to our pinterest"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h2 class="footer__title">Resources</h2>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Blog</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Help Center</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Community</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Marketplace</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Career</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h2 class="footer__title">Links</h2>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Pricing</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Contact</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Forum</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Live Chat</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col--right">
+            <h2 class="footer__title">Subscription</h2>
+            <p class="footer__text">
+              Subcribe us to get latest update
+            </p>
+            <form class="footer__form-subscription" action="#" method="post">
+              <label class="visually-hidden" for="subscription-email">Email</label>
+              <input class="input footer__input" id="subscription-email" type="email" name="subscription-email"
+                placeholder="Email" data-validate-field="email">
+              <button class="btn footer__btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="copyright">
+          Copyright 2019&nbsp;&mdash; Peridona&nbsp;| All rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/tab.min.js"></script>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/app.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU">
+  </script>
+  <script>
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+
+    function init() {
+      // Создание карты.
+      var myMap = new ymaps.Map("map", {
+        // Координаты центра карты.
+        // Порядок по умолчанию: «широта, долгота».
+        // Чтобы не определять координаты центра карты вручную,
+        // воспользуйтесь инструментом Определение координат.
+        center: [48.858251, 2.294510],
+        // Уровень масштабирования. Допустимые значения:
+        // от 0 (весь мир) до 19.
+        zoom: 13
+      });
+
+      // Создаем геообъект с типом геометрии "Точка".
+
+      var myPlacemark = new ymaps.Placemark([48.859577, 2.298098], {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'img/location.svg',
+        iconImageSize: [37, 52],
+        iconImageOffset: [-3, -42]
+      });
+
+      myMap.geoObjects.add(myPlacemark);
+    }
+  </script>
+</body>
+
+</html>
