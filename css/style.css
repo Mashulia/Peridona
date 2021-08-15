@@ -436,7 +436,7 @@ img {
 
 .intro__links-wrapper {
   width: 100%;
-  max-width: 61%;
+  max-width: 62%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -499,11 +499,6 @@ img {
   height: 758px;
   -webkit-box-shadow: 3px 5px 45px 4px rgba(109, 109, 109, 0.23);
   box-shadow: 3px 5px 45px 4px rgba(109, 109, 109, 0.23);
-}
-
-.logos__picture {
-  -o-object-fit: contain;
-  object-fit: contain;
 }
 
 .logos__list {
